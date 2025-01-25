@@ -115,7 +115,7 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: column;
 }
 
 .tecnologia {
@@ -146,12 +146,14 @@ footer {
 @media screen and (max-width: 1200px) {
     .container {
         padding: 10%;
+        width: auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .container {
         padding: 5% 3%;
+        width: auto;
     }
 
     header h1 {
